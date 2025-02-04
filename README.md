@@ -16,10 +16,16 @@ For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
 
 ### With Github
 
-```bash
-git clone https://github.com/megadose/toutatis.git
-cd toutatis/
-python3 setup.py install
+```# Create a virtual environment
+python3 -m venv venv
+
+# Activate it
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+
+# Install the package
+pip install .
+
 ```
 
 ## 📚 Usage:
